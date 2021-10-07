@@ -23,8 +23,8 @@ img{
 }
 
 ::selection{
-    background: #000;
-    color: cyan;
+    background: rgba(0, 255, 255,0.3);
+    color:#000000;
 }
 
 
@@ -823,3 +823,45 @@ img{
 /* =======================
     testimonial css ends
 ======================== */
+
+.footer-bg{
+    height: 295px;
+    background: #353535;
+    margin-top: 60px;
+}
+
+.footer-bg .footer{
+    height: 295px;
+    background: #6b737a;
+}
+
+.footer-bg .footer .footer-item{
+    height: 295px;
+    float: left;
+}
+
+.footer-bg .footer .footer-item .footer-heading{
+    height: 80px;
+    background: #65ff7a;
+}
+
+.footer-bg .footer .footer-logo{
+    width: 220px;
+    background: #00a2ff;
+}
+.footer-bg .footer .footer-contact{
+    width: 220px;
+    background: #2600ff;
+}
+.footer-bg .footer .footer-links{
+    width: 140px;
+    background: #610088;
+}
+.footer-bg .footer .footer-photos{
+    width: 300px;
+    background: #f00064;
+}
+
+/* ====================
+    footer css ends
+===================== */
