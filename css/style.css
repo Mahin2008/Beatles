@@ -641,6 +641,19 @@ img{
 
 .team-bg .team .team-member .team-item .team-image img{
     width: 100%;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+
+.team-bg .team .team-member .team-item:hover img{
+    transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
 }
 
 .team-bg .team .team-member .team-item .team-image{
@@ -835,7 +848,6 @@ img{
 
 .footer-bg .footer{
     height: 295px;
-    background: #6b737a;
 }
 
 .footer-bg .footer .footer-item{
@@ -845,7 +857,6 @@ img{
 
 .footer-bg .footer .footer-item .footer-heading{
     height: 80px;
-    background: #65ff7a;
 }
 
 .footer-bg .footer .footer-item .footer-heading img{
@@ -858,15 +869,14 @@ img{
     font-family: opensans-reg;
     font-size: 13px;
     margin-bottom: 20px;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
 }
 
 
-.footer-bg .footer .footer-item ul li,
 .footer-bg .footer .footer-item ul li a:hover{
     color: #5bc5f4;
 }
@@ -894,7 +904,6 @@ img{
 
 .footer-bg .footer .footer-contact{
     width: 220px;
-    background: #ff9d00;
 }
 
 .footer-bg .footer .footer-contact ul li{
@@ -933,7 +942,6 @@ img{
 
 .footer-bg .footer .footer-links{
     width: 140px;
-    background: #baf17c;
 }
 
 .footer-bg .footer .footer-links ul{
@@ -943,7 +951,6 @@ img{
 
 .footer-bg .footer .footer-photos{
     width: 300px;
-    background: #f00064;
 }
 
 .footer-bg .footer .footer-photos ul li{
@@ -957,9 +964,61 @@ img{
 
 .footer-bg .footer .footer-photos ul li a img{
     width: 100%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+}
+
+
+.footer-bg .footer .footer-photos ul li:hover a img{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
 }
 
 
 /* ====================
     footer css ends
 ===================== */
+
+.footer2{
+    height: 44px;
+    background: #555555;
+    text-align: center;
+}
+
+.footer2 P{
+    color: #f1f1f1;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: opensans-reg;
+    line-height: 45px;
+}
+
+.footer2 p a{
+    color: #fafafa;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+}
+
+.footer2 p a:hover{
+    color: #5bc5f4;
+    font-size: 16;
+    font-weight: 500;
+}
+
+/* ========================
+    footer2 css ends
+========================= */
