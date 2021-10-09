@@ -49,6 +49,9 @@ img{
 .mb-20{
     margin-bottom: 20px;
 }
+.mb-15{
+    margin-bottom: 15px;
+}
 
 /* =======================
     spacing css ends
@@ -845,22 +848,117 @@ img{
     background: #65ff7a;
 }
 
+.footer-bg .footer .footer-item .footer-heading img{
+    padding-top: 20px;
+}
+
+.footer-bg .footer .footer-item ul li,
+.footer-bg .footer .footer-item ul li a{
+    color: #fff;
+    font-family: opensans-reg;
+    font-size: 13px;
+    margin-bottom: 20px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+
+.footer-bg .footer .footer-item ul li,
+.footer-bg .footer .footer-item ul li a:hover{
+    color: #5bc5f4;
+}
+
+.footer-bg .footer .footer-item .footer-heading h5{
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 80px;
+}
+
 .footer-bg .footer .footer-logo{
     width: 220px;
-    background: #00a2ff;
 }
+
+.footer-bg .footer .footer-logo ul li{
+    line-height: 24px;
+}
+
+.footer-bg .footer .footer-logo ul li:nth-child(2){
+    margin-top: 26px;
+}
+
 .footer-bg .footer .footer-contact{
     width: 220px;
-    background: #2600ff;
+    background: #ff9d00;
 }
+
+.footer-bg .footer .footer-contact ul li{
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 20px;
+}
+
+.footer-bg .footer .footer-contact .footer-icon{
+    position: absolute;
+    top: 5px;
+    left: 0;  
+}
+
+.footer-bg .footer .footer-contact .footer-icon i{
+    width: 35px;
+    height: 35px;
+    background: #5bc5f4;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-bg .footer .footer-contact a{
+    display: block;
+}
+
+.footer-bg .footer .footer-contact ul li a:first-of-type{
+    margin-bottom: 10px;
+}
+
 .footer-bg .footer .footer-links{
     width: 140px;
-    background: #610088;
+    background: #baf17c;
 }
+
+.footer-bg .footer .footer-links ul{
+    float: left;
+    width: 50%;
+}
+
 .footer-bg .footer .footer-photos{
     width: 300px;
     background: #f00064;
 }
+
+.footer-bg .footer .footer-photos ul li{
+    float: left;
+    margin-right: 15px;
+}
+
+.footer-bg .footer .footer-photos ul li:nth-child(3n){
+    margin-right: 0;
+}
+
+.footer-bg .footer .footer-photos ul li a img{
+    width: 100%;
+}
+
 
 /* ====================
     footer css ends
