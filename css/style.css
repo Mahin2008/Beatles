@@ -640,6 +640,11 @@ img{
 }
 
 .team-bg .team .team-member .team-item .team-image img{
+     transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
     width: 100%;
     transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
@@ -649,11 +654,11 @@ img{
 }
 
 .team-bg .team .team-member .team-item:hover img{
-    transform: scale(1.06);
-    -webkit-transform: scale(1.06);
-    -moz-transform: scale(1.06);
-    -ms-transform: scale(1.06);
-    -o-transform: scale(1.06);
+    transform: scale(0.93);
+    -webkit-transform: scale(0.93);
+    -moz-transform: scale(0.93);
+    -ms-transform: scale(0.93);
+    -o-transform: scale(0.93);
 }
 
 .team-bg .team .team-member .team-item .team-image{
